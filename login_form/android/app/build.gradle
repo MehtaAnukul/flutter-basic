@@ -8,7 +8,11 @@ if (localPropertiesFile.exists()) {
 
 def flutterRoot = localProperties.getProperty('flutter.sdk')
 if (flutterRoot == null) {
+<<<<<<< HEAD
     throw new FileNotFoundException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
+=======
+    throw new GradleException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
+>>>>>>> 814f32991cdc0d0fccb2e6d2f3fb19b8b83dda29
 }
 
 def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
