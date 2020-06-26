@@ -16,9 +16,10 @@ class MyApp extends StatelessWidget {
       title: 'Cocktail App',
       theme: ThemeData(
         primarySwatch: myColor, // Colors.pink
-        //fontFamily: "Lobster",
+        fontFamily: "DancingScript",
       ),
       home: Homepage(),
+      
     );
   }
 

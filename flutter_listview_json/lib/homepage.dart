@@ -32,7 +32,9 @@ class _HomepageState extends State<Homepage> {
     // TODO: implement build
     return Container(
       decoration: BoxDecoration(
-          gradient: LinearGradient(colors: [myColor, Colors.orange])),
+          gradient: LinearGradient(colors: [myColor, Colors.orange]
+          )
+      ),
       child: Scaffold(
         backgroundColor: Colors.transparent,
         appBar: AppBar(
