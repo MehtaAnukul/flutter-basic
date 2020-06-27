@@ -15,10 +15,6 @@ class _State extends State<MyApp> {
   TextEditingController nameController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 814f32991cdc0d0fccb2e6d2f3fb19b8b83dda29
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -68,11 +64,7 @@ class _State extends State<MyApp> {
                   ),
                 ),
                 FlatButton(
-                  onPressed: (){
-<<<<<<< HEAD
-
-=======
->>>>>>> 814f32991cdc0d0fccb2e6d2f3fb19b8b83dda29
+                  onPressed: () {
                     //forgot password screen
                   },
                   textColor: Colors.blue,
@@ -82,43 +74,31 @@ class _State extends State<MyApp> {
                     height: 50,
                     padding: EdgeInsets.fromLTRB(10, 0, 10, 0),
                     child: RaisedButton(
-<<<<<<< HEAD
-
-=======
->>>>>>> 814f32991cdc0d0fccb2e6d2f3fb19b8b83dda29
                       textColor: Colors.white,
                       color: Colors.blue,
                       child: Text('Login'),
                       onPressed: () {
                         print(nameController.text);
                         print(passwordController.text);
-<<<<<<< HEAD
-
-=======
->>>>>>> 814f32991cdc0d0fccb2e6d2f3fb19b8b83dda29
                       },
                     )),
                 Container(
                     child: Row(
-                      children: <Widget>[
-                        Text('Does not have account?'),
-                        FlatButton(
-                          textColor: Colors.blue,
-                          child: Text(
-                            'Sign in',
-                            style: TextStyle(fontSize: 20),
-                          ),
-                          onPressed: () {
-<<<<<<< HEAD
-
-=======
->>>>>>> 814f32991cdc0d0fccb2e6d2f3fb19b8b83dda29
-                            //signup screen
-                          },
-                        )
-                      ],
-                      mainAxisAlignment: MainAxisAlignment.center,
-                    ))
+                  children: <Widget>[
+                    Text('Does not have account?'),
+                    FlatButton(
+                      textColor: Colors.blue,
+                      child: Text(
+                        'Sign in',
+                        style: TextStyle(fontSize: 20),
+                      ),
+                      onPressed: () {
+                        //signup screen
+                      },
+                    )
+                  ],
+                  mainAxisAlignment: MainAxisAlignment.center,
+                ))
               ],
             )));
   }
