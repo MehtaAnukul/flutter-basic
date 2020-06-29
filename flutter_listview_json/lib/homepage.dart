@@ -39,9 +39,13 @@ class _HomepageState extends State<Homepage> {
         backgroundColor: Colors.transparent,
         appBar: AppBar(
           backgroundColor: Colors.transparent,
-          title: Center(
-              child: Text("Cocktail App", style: TextStyle(color: Colors.white))),
+          title: Text("Cocktail App", style: TextStyle(color: Colors.white)),
           elevation: 0.0,
+          actions: <Widget>[
+              IconButton(icon: Icon(Icons.search), onPressed: (){
+
+              })
+          ],
         ),
         body: Center(
           child: response != null
