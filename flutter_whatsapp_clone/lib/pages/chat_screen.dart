@@ -112,6 +112,7 @@ class ChatScreen extends StatelessWidget implements SearchDelegate<ChatModel> {
   @override
   void showResults(BuildContext context) {
     // TODO: implement showResults
+    
   }
 
   @override

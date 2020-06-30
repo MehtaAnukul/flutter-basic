@@ -46,25 +46,28 @@ class _HomePageState extends State<HomePage> {
       body: new ListView.builder(
           itemCount: drinks.length,
           itemBuilder: (BuildContext context,int index){
-            return new Container(
-              child: new Center(
-                child: new Column(
-                  crossAxisAlignment: CrossAxisAlignment.stretch,
-                  children: <Widget>[
-                    new Card(
-                      child: new Container(
-                        child: new Row(
-                          children: <Widget>[
-                            new Text(drinks[index]['strDrink']),
-                            new Text(drinks[index]['idDrink'],),
-                          ],
-                         // textDirection: TextDirection.ltr,
-                        ),
-                        padding: const EdgeInsets.all(20.0),
+            return new Card(
+              child: new Column(
+                children: <Widget>[
+                  new ListTile(
+                      leading: new CircleAvatar(
+                        foregroundColor: Theme.of(context).primaryColor,
+                        backgroundColor: Colors.grey,
+                        backgroundImage: new NetworkImage(drinks[index]['strDrinkThumb']),
                       ),
-                    )
-                  ],
-                ),
+                  ),
+                  new Container(
+                    child: new Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: <Widget>[
+                        new Text(drinks[index]['strDrink']),
+                        new Text(drinks[index]['idDrink'],),
+                      ],
+                     // textDirection: TextDirection.ltr,
+                    ),
+                    padding: const EdgeInsets.all(20.0),
+                  )
+                ],
               ),
             );
           }
