@@ -1,0 +1,30 @@
+[
+  {
+    "name" : "Anukul Mehta",
+    "age" : "23",
+    "height" : "160",
+    "gender" : "male",
+    "hair_color" : "black"
+  },
+  {
+    "name" : "Vishal Mehta",
+    "age" : "23",
+    "height" : "160",
+    "gender" : "male",
+    "hair_color" : "black"
+  },
+  {
+    "name" : "Karan Mehta",
+    "age" : "23",
+    "height" : "160",
+    "gender" : "male",
+    "hair_color" : "black"
+  },
+  {
+    "name" : "Dhananjay Mehta",
+    "age" : "23",
+    "height" : "160",
+    "gender" : "male",
+    "hair_color" : "black"
+  }
+]
